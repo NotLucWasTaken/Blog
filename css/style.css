@@ -29,6 +29,11 @@
   font-size: 24px;
 }
 
+p{
+  padding: px 20px;
+  text-align: left;
+}
+
 .aside1 {
   background: gold;
 }
@@ -39,6 +44,9 @@
 @media all and (min-width: 800px){
   .main{
     flex: 3;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
   }
   
   .aside1{
@@ -62,4 +70,8 @@
   .aside {
     flex: 1;
   }
-}
+  
+  p1{
+    font-size: 24px;
+    
+  }
